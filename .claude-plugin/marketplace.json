@@ -1,0 +1,19 @@
+{
+  "name": "validate-idea-skills",
+  "owner": {
+    "name": "validate-idea-skills"
+  },
+  "metadata": {
+    "description": "7-step idea-validation skills for AI coding agents — prove demand before you build."
+  },
+  "plugins": [
+    {
+      "name": "validate-idea-skills",
+      "source": {
+        "source": "github",
+        "repo": "elcodabra/validate-idea-skills"
+      },
+      "description": "A step-by-step workflow that walks an indie hacker from problem statement to a go/no-go decision in one week, no code required."
+    }
+  ]
+}
