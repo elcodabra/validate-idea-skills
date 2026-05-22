@@ -17,7 +17,7 @@ A live one-page site that turns Step 2's value proposition into something a stra
 
 ## Process
 
-### Step 1 — Pick a builder
+### 1. Pick a builder
 
 Default recommendations by speed-to-live:
 
@@ -32,7 +32,7 @@ See [no-code-tools.md](../../references/no-code-tools.md) for the full list.
 
 **Do not build a custom app.** If the user insists, ask: "What signal will the custom app give that a Carrd page won't?" There usually isn't one.
 
-### Step 2 — The 7-block structure
+### 2. The 7-block structure
 
 A validation landing page has exactly these blocks, in order:
 
@@ -46,7 +46,7 @@ A validation landing page has exactly these blocks, in order:
 
 No nav menu, no footer links, no "About us", no blog, no live chat widget. Every link off the page is a leak.
 
-### Step 3 — One primary action
+### 3. One primary action
 
 Pick exactly one (Step 4 and Step 6 will iterate this):
 
@@ -56,7 +56,7 @@ Pick exactly one (Step 4 and Step 6 will iterate this):
 
 If undecided, start with the form (medium signal) — Step 4 layers analytics, Step 6 swaps in payments.
 
-### Step 4 — Pricing clarity
+### 4. Pricing clarity
 
 Even if you're not collecting money yet, **state a price**. "Free during beta" hides the most important question: "would they pay?" Use one of:
 
@@ -64,7 +64,7 @@ Even if you're not collecting money yet, **state a price**. "Free during beta" h
 - "$X one-time, refundable until launch"
 - "Free during beta — usage capped at N/day"
 
-### Step 5 — Mockup or visual
+### 5. Mockup or visual
 
 People convert on what they can picture. Use, in order of preference:
 
@@ -72,7 +72,7 @@ People convert on what they can picture. Use, in order of preference:
 2. A 30-60s Loom showing the *outcome* (not the UI)
 3. A clean wireframe — never a generic SaaS dashboard stock image
 
-### Step 6 — Ship it
+### 6. Ship it
 
 - Custom domain (cheap — Namecheap/Cloudflare). Bare subdomain on the builder is a credibility hit.
 - HTTPS on (every builder does this by default; verify)

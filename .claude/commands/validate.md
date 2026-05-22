@@ -4,7 +4,7 @@ description: Start (or resume) the 7-step idea validation workflow for an indie 
 
 Invoke the `validate-idea-orchestrator` skill.
 
-If `validation-log.md` already exists in the working directory, resume from the latest completed day. Otherwise, start with Step 1.
+If `validation-log.md` already exists in the working directory, resume from the latest completed step. Otherwise, start with Step 1.
 
 Always:
 

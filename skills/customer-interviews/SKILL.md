@@ -18,13 +18,13 @@ A short discovery interview that proves whether a problem is real by asking abou
 
 ## Process
 
-### Step 1 — Three rules
+### 1. Three rules
 
 1. **Talk about their life, not your idea.** Don't pitch. The moment you describe the product, the data is contaminated.
 2. **Ask about specifics from the past, not generics about the future.** "When did you last...?" beats "Would you...?"
 3. **Talk less, listen more.** If you're talking >30% of the call, you're pitching.
 
-### Step 2 — The script (15 min)
+### 2. The script (15 min)
 
 Adapt verbatim:
 
@@ -52,7 +52,7 @@ Adapt verbatim:
 
 Only after the call, with their permission, share the landing page link.
 
-### Step 3 — Bad questions to never ask
+### 3. Bad questions to never ask
 
 | Don't ask | Why | Ask instead |
 |-----------|-----|-------------|
@@ -61,7 +61,7 @@ Only after the call, with their permission, share the landing page link.
 | "Would you pay for it?" | Free is easy to promise | "What do you pay for in this space today?" |
 | "How much would you pay?" | They're guessing | "What does your current workaround cost in time or money?" |
 
-### Step 4 — Score the conversation
+### 4. Score the conversation
 
 After each call, log:
 
@@ -72,7 +72,7 @@ After each call, log:
 
 3–4 yeses across ≥5 interviews = strong qualitative GO contribution.
 
-### Step 5 — Quotes go in the validation log
+### 5. Quotes go in the validation log
 
 Capture **verbatim** quotes, not summaries. Verbatim user language goes into headlines, ads, and outreach. Paraphrases lose the signal.
 
@@ -96,6 +96,6 @@ Capture **verbatim** quotes, not summaries. Verbatim user language goes into hea
 ## Verification
 
 - [ ] ≥5 interviews completed with people in the Step 1 segment (not friends, not investors)
-- [ ] Each scored on the 4 questions in Step 4
+- [ ] Each scored on the 4 questions in section 4 (Score the conversation); ≥3 yeses across ≥5 interviews fed into the Step 7 verdict
 - [ ] Verbatim quotes captured in the validation log
 - [ ] At least one intro asked for per call

@@ -20,7 +20,7 @@ Before you can validate demand, you need to name (a) the problem you think exist
 
 ## Process
 
-### Step 1A — Write the problem statement
+### 1. Write the problem statement
 
 Use this exact template and fill every slot. No adjectives, no jargon.
 
@@ -37,7 +37,7 @@ A weak statement is a fatal Step 1 failure. Reject the user's draft if:
 - "Current workaround" is "nothing" — *something* is the workaround (spreadsheets, email, ignoring it)
 - The cost is not quantifiable in time, money, or visible status
 
-### Step 1B — Identify 2–3 target segments
+### 2. Identify 2–3 target segments
 
 For each segment, capture:
 
@@ -51,7 +51,7 @@ For each segment, capture:
 
 Two segments minimum so you can compare conversion later. Three is the cap — more dilutes effort.
 
-### Step 1C — Research watering holes
+### 3. Research watering holes
 
 For each segment, produce a concrete list of 5–10 places (subreddit, Discord, Slack, Twitter list, podcast comment thread, niche forum, in-person meetup). For each location capture:
 

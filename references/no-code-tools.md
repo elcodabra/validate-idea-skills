@@ -6,7 +6,7 @@ Reference loaded by the Step 3 / 4 / 6 skills. Pick the simplest option that shi
 
 | Tool | Free tier | Best for | Speed-to-live |
 |------|-----------|----------|---------------|
-| **Carrd** | Limited (paid $19/yr) | One-page validation, fastest possible | 30–60 min |
+| **Carrd** | Limited (paid from $9/yr) | One-page validation, fastest possible | 30–60 min |
 | **Framer** | Yes | Designed pages, animations | 1–3 h |
 | **Typedream** | Yes | Notion-style editing | 1–3 h |
 | **Webflow** | Yes | Production-grade later | 3–8 h |
@@ -19,10 +19,12 @@ Default: **Carrd**. If you genuinely need richer interactions, Framer or Webflow
 
 | Tool | Notes |
 |------|-------|
-| **Stripe Payment Links** | Free, ~5 min, handles SCA / receipts / refunds / tax. Default. |
+| **Stripe Payment Links** | Free, ~5 min, handles SCA / receipts / refunds. Default. |
 | **Gumroad** | Good for one-time products, digital goods, courses. Higher fees. |
 | **Lemon Squeezy** | Merchant-of-record (handles VAT). Solid for SaaS pre-sells. |
 | **Polar.sh** | Indie/dev-focused, merchant-of-record. |
+
+> Stripe is **not** a merchant of record — sales tax / VAT is your responsibility. Stripe Tax is a paid add-on that only *calculates*, it doesn't remit. For cross-border B2C pre-sells, prefer Lemon Squeezy or Polar.sh and let them file for you.
 
 Do **not** build a custom checkout in this week.
 
@@ -34,7 +36,7 @@ Do **not** build a custom checkout in this week.
 | **Beehiiv** | Newsletter-first, generous free tier |
 | **MailerLite** | Simple, free up to 1k |
 | **Buttondown** | Markdown-first, cheap |
-| **Resend** + a tiny static form | If the user insists on code; otherwise overkill |
+| **Resend** | Transactional only (no list management or broadcasts) — pair with one of the above if you also need a list |
 
 ## Analytics
 

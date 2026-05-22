@@ -17,19 +17,19 @@ A smoke test is a landing page that **acts like the product exists** so you can 
 
 ## Process
 
-### Step 1 — Pick the smoke-test pattern
+### 1. Pick the smoke-test pattern
 
 | Pattern | What the user sees | What you measure | Strength of signal |
 |---------|--------------------|------------------|--------------------|
 | **Waitlist** | "We're not live yet — leave your email" | Email signups | Low |
-| **Fake door** | A "Start now" CTA that opens a modal: "Thanks! We're in private beta. Tell us about your use case." | Click + qualified reply | Medium |
+| **Fake door** | A "Get early access" / "Join the private beta" CTA opens a modal: "Thanks — we're shipping in N weeks. Tell us your use case and we'll prioritize early-access invites." | Click + qualified reply | Medium |
 | **Pre-order** | Real Stripe payment link (see [step-6-pre-sell](../step-6-pre-sell/SKILL.md)) | Charges | High |
 
 Default to **fake door** on Step 4 — it's honest (you tell them after the click), gives a stronger signal than email-only, and feeds the Step 5 interviews.
 
-> Ethics rule: never charge cards or claim a feature exists if it doesn't. "Coming soon" + honest modal after the click is the line.
+> Ethics rule: the CTA copy itself must signal pre-launch ("Get early access", "Join the private beta", "Pre-order"). CTAs that read "Start now", "Sign up", or "Buy" imply a working product and become deceptive when there isn't one. Never charge cards or claim a feature exists if it doesn't. "Coming soon" + honest modal after the click is the line — but the line starts at the button copy.
 
-### Step 2 — Analytics
+### 2. Analytics
 
 Minimum kit (no enterprise tools):
 
@@ -43,7 +43,7 @@ Set up at minimum:
 - Outbound link clicks (some builders need a manual setting)
 - One **custom conversion event** on the primary CTA
 
-### Step 3 — The conversion event
+### 3. The conversion event
 
 Define ONE primary conversion event. Examples:
 
@@ -53,7 +53,7 @@ Define ONE primary conversion event. Examples:
 
 Test it: open an incognito window, do the action, confirm the event lands in the analytics dashboard within 60 seconds. If it doesn't, fix it now — Step 5 traffic without this is wasted.
 
-### Step 4 — UTM scheme
+### 4. UTM scheme
 
 Set up your URL conventions before sharing any link on Step 5:
 
@@ -69,11 +69,11 @@ Examples:
 
 Document the scheme in the validation log so every link you ship tomorrow is taggable.
 
-### Step 5 — Test messaging variations (optional, lightweight)
+### 5. Test messaging variations (optional, lightweight)
 
 If the builder supports it cheaply, create 2 versions of the headline (the only thing worth testing at this volume). Otherwise, plan to swap copy mid-week after the first 100 visitors and re-measure — that's enough at indie-hacker traffic levels.
 
-### Step 6 — The post-click experience
+### 6. The post-click experience
 
 When a visitor converts, what do they get? Write this **today**, not after they sign up:
 

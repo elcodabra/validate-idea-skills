@@ -36,7 +36,7 @@ Trigger on any of:
 
 Cross-cutting:
 
-- [customer-interviews](../customer-interviews/SKILL.md) — used inside Steps 1, 5, and 7
+- [customer-interviews](../customer-interviews/SKILL.md) — used inside Steps 1, 5, and 6
 - References: [validation-metrics.md](../../references/validation-metrics.md), [no-code-tools.md](../../references/no-code-tools.md), [validation-pitfalls.md](../../references/validation-pitfalls.md)
 
 ## Process
@@ -59,7 +59,7 @@ Cross-cutting:
 
 | Rationalization | Reality |
 |---|---|
-| "I'll validate by just shipping the MVP — that's faster" | Building takes 2–6 months on average. Validation takes 7 steps. CB Insights: 42% of startups fail because there was no market need. |
+| "I'll validate by just shipping the MVP — that's faster" | Building takes 2–6 months on average. Validation takes 7 steps. [CB Insights' post-mortem study](https://www.cbinsights.com/research/startup-failure-reasons-top/) found 42% of startups fail because there was no market need. |
 | "I already know my audience wants this" | Then proving it with a landing page + 10 pre-orders should be trivial. If it isn't, you didn't know. |
 | "My idea is too novel for a landing page to test" | If you can't describe it on a landing page, your prospects can't understand it either. That's a signal. |
 | "I'll skip Step 1–2 and just build a landing page" | Without a problem statement and value prop, the page won't convert and you'll learn nothing. |

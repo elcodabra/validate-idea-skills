@@ -17,13 +17,13 @@ The page is live and instrumented. Step 5 puts qualified eyeballs in front of it
 
 ## Process
 
-### Step 1 — Set the target
+### 1. Set the target
 
 - **Floor:** 100 unique visitors from the Step 1 segments — below this, conversion numbers are not statistically meaningful
 - **Goal:** 200–500 in 48 hours
 - **Channel diversity:** at least 3 sources so you can tell which segment / channel converts best (Step 7 input)
 
-### Step 2 — Channel strategy (in priority order, no ads required)
+### 2. Channel strategy (in priority order, no ads required)
 
 #### 2a. Community engagement (best ROI)
 
@@ -65,18 +65,18 @@ Set up a "Coming soon" page on Product Hunt (separate from your launch). This co
 
 If your segment reads a particular newsletter, the cheapest play is a sponsored classified (often <$100) or a guest contribution. Save for after channels 2a–2c are exhausted.
 
-### Step 3 — Tag every share
+### 3. Tag every share
 
 Every link you post or send today must use the [Step 4 UTM scheme](../step-4-smoke-test/SKILL.md). One untagged link in a high-traffic thread can wreck the Step 7 attribution.
 
-### Step 4 — Set traffic expectations
+### 4. Set traffic expectations
 
 Realistic 48-hour outcomes by channel (indie hacker scale):
 
 | Channel | Typical visitors | Typical conversion |
 |---------|-----------------:|-------------------:|
 | 2 well-written subreddit posts | 50–200 | 2–8% |
-| Show HN (front page) | 1,000–10,000 | 1–3% (low intent) |
+| Show HN (front page) | 1,000–10,000 | 1–3% for dev/infra tools, 0.3–1% for consumer/non-dev |
 | 30 personalized cold emails | 30–60 visits, 5–10 calls | 20–40% to conversion |
 | Indie Hackers post | 50–300 | 3–10% |
 | Twitter post from <1k account | 5–30 | <1% |
@@ -84,7 +84,7 @@ Realistic 48-hour outcomes by channel (indie hacker scale):
 
 If you're at 5 visitors after Step 5, the channels are wrong, not the page.
 
-### Step 5 — Capture interview slots
+### 5. Capture interview slots
 
 The point of cold outreach is conversations, not signups. Every reply that says "interesting" → invite to a 15-min call. Step 6/7 logic depends on having had ~5 real conversations.
 

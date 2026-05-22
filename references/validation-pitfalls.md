@@ -53,4 +53,4 @@ A live product without distribution gets the same traffic as a landing page with
 
 ## Source
 
-Larry Qu, *Validate Your Indie Hacker Idea in 7 Days (Without Writing Code)*, CalmOps, 2025 (Common Pitfalls + Real Talk sections).
+Larry Qu, [*Validate Your Indie Hacker Idea in 7 Days (Without Writing Code)*](https://calmops.com/indie-hackers/validate-idea-in-7-days-without-code/), CalmOps, 2025 (Common Pitfalls + Real Talk sections).

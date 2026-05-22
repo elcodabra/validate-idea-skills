@@ -21,7 +21,7 @@ This step is **optional but powerful**: a single paying pre-order at a real pric
 
 ## Process
 
-### Step 1 — Choose the pre-sell model
+### 1. Choose the pre-sell model
 
 | Model | What you collect | When to use |
 |-------|------------------|-------------|
@@ -30,9 +30,9 @@ This step is **optional but powerful**: a single paying pre-order at a real pric
 | **Founding-customer slot** (annual upfront, limited to N seats) | Larger ticket, big intent signal | High-touch B2B, consultancies |
 | **"Reserve at the launch price"** ($1 hold or signed letter of intent) | Soft signal | Enterprise; long sales cycles |
 
-Refunds must be unconditional and clearly stated. This is the ethical floor and also the trust mechanic that makes pre-sales work.
+Refunds must be unconditional and clearly stated **on the landing page itself**, next to the price — not buried in the Stripe checkout description. Hidden refund terms are a chargeback magnet and a dark-pattern risk. The unconditional refund is the ethical floor and the trust mechanic that makes pre-sales work.
 
-### Step 2 — Set up in 30 minutes
+### 2. Set up in 30 minutes
 
 Minimum stack:
 
@@ -43,7 +43,7 @@ Minimum stack:
 
 See [no-code-tools.md](../../references/no-code-tools.md#payment--pre-order) for alternatives (Gumroad, Lemon Squeezy, Polar.sh).
 
-### Step 3 — Pre-sell communication
+### 3. Pre-sell communication
 
 Write a short message and send personally to (a) every Step 5 signup, (b) every interview reply that said "interesting":
 
@@ -70,7 +70,7 @@ If not — I'd still love to know what's holding you back.
 
 Personalize at least the first sentence per recipient. Do not bcc a list.
 
-### Step 4 — Handle objections, learn from no's
+### 4. Handle objections, learn from no's
 
 The most valuable Step 6 output is not the yes — it's the structured no. For every reply that declines, ask one of:
 
@@ -80,7 +80,7 @@ The most valuable Step 6 output is not the yes — it's the structured no. For e
 
 Log every reply in the validation log. The no-pattern decides Step 7's pivot direction.
 
-### Step 5 — Track separately
+### 5. Track separately
 
 Set up two metrics — do not collapse them:
 
@@ -105,7 +105,7 @@ Add a `Step 6` section to `validation-log.md`:
 |---|---|
 | "Pre-sales without a built product feels dishonest" | A clear delivery date + unconditional refund is the opposite of dishonest. Hiding the price until after signup is what's dishonest. |
 | "I'll charge after I build the MVP" | Then "validation" is just hope. The whole point is to test willingness-to-pay before you sink the time. |
-| "I'll skip Stripe and use a payment form on my site" | Stripe Payment Links take 5 minutes and handle SCA, receipts, refunds, tax. Do not roll your own. |
+| "I'll skip Stripe and use a payment form on my site" | Stripe Payment Links take 5 minutes and handle SCA, receipts, and refunds. Do not roll your own. (Stripe is not a merchant of record — for cross-border VAT use Lemon Squeezy or Polar.sh.) |
 | "Bulk-email my whole list with the offer" | Conversion plummets vs. personalized 1-1s on a list this small. Spend the 90 minutes; send 30 personal notes. |
 | "I'll only count yeses; no's don't matter" | The structured no's are the most actionable data of the entire week. They tell you why and how to pivot. |
 

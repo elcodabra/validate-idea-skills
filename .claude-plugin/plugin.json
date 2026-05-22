@@ -3,7 +3,7 @@
   "description": "Validate an indie hacker product idea in 7 steps without writing code — smoke tests, landing pages, pre-sales, and a go/no-go decision framework.",
   "version": "0.1.0",
   "author": {
-    "name": "validate-idea-skills"
+    "name": "elcodabra"
   },
   "license": "MIT",
   "commands": "./.claude/commands",

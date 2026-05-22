@@ -23,7 +23,7 @@ No verdict, no code. Half-deciding ("I'll build a little and see") is how 6 mont
 
 ## Process
 
-### Step 1 — Key metrics to analyze
+### 1. Key metrics to analyze
 
 Pull from the validation log and compute, do not estimate:
 
@@ -39,22 +39,17 @@ Pull from the validation log and compute, do not estimate:
 | Qualified interviews | 15+ min conversations with Step 1 segment | Step 5–6 |
 | Decline reasons | Categorized (price / fit / time / scope) | Step 6 |
 
-### Step 2 — Apply the decision framework
+### 2. Apply the decision framework
 
-Reference thresholds (tune for your category; tighter for B2C, looser for niche B2B):
+Use the canonical threshold table in [validation-metrics.md → Reference Thresholds](../../references/validation-metrics.md#reference-thresholds). Do not redefine the numbers here.
 
-| Signal | KILL | PIVOT | GO |
-|--------|------|-------|----|
-| Qualified visitors (Step 5–6 total) | <50 | 50–200 | >200 |
-| Email/waitlist conversion | <2% | 2–5% | >5% |
-| Pre-order intent rate | <1% | 1–3% | >3% |
-| **Pre-orders (paying)** | 0 | 1–4 | ≥5 OR ≥$500 |
-| Qualified interviews | <2 | 2–4 | ≥5 |
-| Coherent decline reasons | (no) | "yes, price/scope wrong" | (n/a) |
+The decision rule on top of those thresholds:
 
-A clear **GO** needs *both* a paying-customer signal and ≥5 qualified conversations. Either alone is insufficient. A clear **KILL** needs near-zero on every row. Everything in between is **PIVOT**.
+- **GO** — *both* the pre-order column AND the qualified-interviews column hit the GO row. Either alone is insufficient. (A single $500 enterprise deposit clears the pre-order threshold, but you still need ≥5 qualified conversations.)
+- **KILL** — near-zero on every row, no coherent decline pattern.
+- **PIVOT** — anything in between, with at least one specific changed variable identifiable from the decline reasons.
 
-### Step 3 — Write the decision
+### 3. Write the decision
 
 Add a `Step 7 — Decision` section to `validation-log.md`:
 
@@ -79,15 +74,15 @@ Two paragraphs in plain English. The verdict must follow the evidence, not the o
 - KILL → next step: [what was learned, what was sunk, what to try next]
 ```
 
-### Step 4 — On GO, scope the build narrowly
+### 4. On GO, scope the build narrowly
 
 The Step 7 GO does **not** unlock building the full product. It unlocks building the smallest thing that fulfills the pre-orders. Hand off to `spec-driven-development` / `planning-and-task-breakdown` (or whatever your stack uses) with a scope no larger than: deliver the promised pre-sell offer to the N customers who paid.
 
-### Step 5 — On PIVOT, run another cycle
+### 5. On PIVOT, run another cycle
 
 Restart from [step-1-problem-and-audience](../step-1-problem-and-audience/SKILL.md) with the changed variable made explicit: different segment, different price, different shape. Carry forward the Step 1–2 work that's still valid; redo what changes.
 
-### Step 6 — On KILL, log the lessons and move on
+### 6. On KILL, log the lessons and move on
 
 Capture: what was the wrong assumption, what could you not change (market, channel, price), and what you'd try differently in the next idea. This is the most valuable artifact for the next round.
 
@@ -111,7 +106,7 @@ Capture: what was the wrong assumption, what could you not change (market, chann
 
 ## Verification
 
-- [ ] Every metric row in Step 1 has a real number (or an explicit N/A with reason)
+- [ ] Every metric row in section 1 (Key metrics) has a real number (or an explicit N/A with reason)
 - [ ] Verdict written in the log with evidence and reasoning
 - [ ] Next action is dated and concrete
 - [ ] If GO: the build scope is constrained to fulfilling the pre-orders, not the whole product

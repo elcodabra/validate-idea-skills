@@ -12,16 +12,16 @@ A value proposition is one sentence that tells one segment what they get and why
 ## When to Use
 
 - Step 2 of the validation cycle, after [step-1-problem-and-audience](../step-1-problem-and-audience/SKILL.md) is signed off
-- Rewriting copy on a landing page with <2% CTA conversion
+- Rewriting copy on a landing page with <5% CTA conversion (below the KILL threshold in [validation-metrics.md](../../references/validation-metrics.md#reference-thresholds))
 - The user can't describe the product in one sentence without using the word "platform"
 
 ## Process
 
-### Step 1 — Pick ONE segment
+### 1. Pick ONE segment
 
 Step 1 produced 2–3 segments. Pick the segment with (a) the most acute pain, (b) the easiest channel, and (c) existing paid tools. You can run Step 3–7 again for a second segment later.
 
-### Step 2 — Draft the headline
+### 2. Draft the headline
 
 Template:
 
@@ -41,14 +41,14 @@ The headline must pass three tests:
 2. **Outcome over feature** — promises a result, not a tool
 3. **"So what?" defeated** — a tired buyer reading it does not need a second sentence to understand the payoff
 
-### Step 3 — Three benefit bullets
+### 3. Three benefit bullets
 
 Each bullet = `Benefit → How you deliver it → Proof or specificity`.
 
 Bad: "Fast and easy."
 Good: "Live landing page in 60 minutes — drag-and-drop blocks, 12 templates tested for indie hacker conversion."
 
-### Step 4 — One proof element
+### 4. One proof element
 
 Pick one (in priority order):
 
@@ -59,7 +59,7 @@ Pick one (in priority order):
 
 Never invent a metric, quote, or logo. Faked social proof is a credibility cliff later and a Pitfall (see [validation-pitfalls.md](../../references/validation-pitfalls.md)).
 
-### Step 5 — The Mom test
+### 5. The Mom test
 
 Run the draft past the "would my mom understand this?" test, then the harder one: would someone in the Step 1 watering hole *quote it back at someone else with the same problem*? If not, rewrite.
 

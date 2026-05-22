@@ -1,6 +1,6 @@
 ---
 name: validation-coach
-description: Indie hacker validation coach that runs the 7-step no-code validation workflow with you, step by step. Asks the hard questions, blocks premature building, and writes the validation log. Spawn this agent when the user wants a guided week-long session rather than ad-hoc help.
+description: Indie hacker validation coach that runs the 7-step no-code validation workflow with you, step by step. Asks the hard questions, blocks premature building, and writes the validation log. Use when the user says "coach me through validating my idea", "walk me through the 7 steps", "I want a guided validation session", or wants a single agent to own a multi-day validation cycle. Use also any time the user is about to start building before completing Step 7 and needs an enforcer rather than ad-hoc help.
 ---
 
 # Validation Coach

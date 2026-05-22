@@ -4,7 +4,7 @@ Reference loaded by the `validate-idea-orchestrator` and `step-7-decide` skills.
 
 ## Validation Log Template
 
-Create as `validation-log.md` in the project working directory. Keep all days in one file — the goal on Step 7 is to read the whole thing in one sitting.
+Create as `validation-log.md` in the project working directory. Keep all steps in one file — the goal on Step 7 is to read the whole thing in one sitting.
 
 ```markdown
 # Validation Log — [Idea name]
@@ -71,18 +71,20 @@ Started: [YYYY-MM-DD]
 
 ## Reference Thresholds
 
-Tighter for B2C / consumer, looser for niche B2B / enterprise.
+Canonical for this pack. Step 7 reads these — do not duplicate them elsewhere.
 
 | Signal | KILL | PIVOT | GO |
 |--------|------|-------|----|
 | Qualified visitors | <50 | 50–200 | >200 |
 | CTA conversion (visitor → click) | <5% | 5–15% | >15% |
 | Waitlist conversion (visitor → email) | <2% | 2–5% | >5% |
-| Pre-order intent rate | <1% | 1–3% | >3% |
+| Pre-order intent rate (B2C floor 1–2%, B2B floor 5%) | <1% | 1–3% | >3% |
 | **Pre-orders (paying)** | 0 | 1–4 | ≥5 OR ≥$500 collected |
 | Qualified interviews | <2 | 2–4 | ≥5 |
 
-A clean **GO** requires both: ≥5 paying pre-orders *and* ≥5 qualified interviews. Either alone is insufficient.
+**Decision rule** (applied at Step 7): a clean **GO** requires the pre-order row AND the qualified-interviews row to *both* be at GO level. Either alone is insufficient. A single $500 enterprise deposit clears the pre-order threshold but still needs ≥5 conversations.
+
+Tighten thresholds for B2C (consumer scale, easier conversion), loosen for niche B2B / enterprise (smaller list, longer cycle, higher deal size).
 
 ## What does NOT count
 
@@ -94,4 +96,4 @@ A clean **GO** requires both: ≥5 paying pre-orders *and* ≥5 qualified interv
 
 ## Source
 
-Larry Qu, *Validate Your Indie Hacker Idea in 7 Days (Without Writing Code)*, CalmOps, 2025.
+Larry Qu, [*Validate Your Indie Hacker Idea in 7 Days (Without Writing Code)*](https://calmops.com/indie-hackers/validate-idea-in-7-days-without-code/), CalmOps, 2025.
