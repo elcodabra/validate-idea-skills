@@ -10,6 +10,7 @@ Based on Larry Qu, [*Validate Your Indie Hacker Idea in 7 Days (Without Writing 
 validate-idea-skills/
 ├── skills/
 │   ├── validate-idea-orchestrator/   # Routes to the right step-skill, enforces the gate
+│   ├── framework-selection/           # Step 0 — pick the validation method for the idea
 │   ├── step-1-problem-and-audience/   # Problem statement, segments, watering holes
 │   ├── step-2-competitor-analysis/    # Advantages/disadvantages of competitors, the gap
 │   ├── step-3-value-proposition/      # Headline + 3 bullets + proof
@@ -66,7 +67,7 @@ Or just say "validate my idea: [one sentence]" — the `validate-idea-orchestrat
 
 The orchestrator:
 
-1. Creates a `validation-log.md` in the working directory.
+1. Runs Step 0 (`framework-selection`) to pick the validation method, then creates a `validation-log.md` in the working directory.
 2. Routes you through Steps 1 → 8 using the matching skill at each step.
 3. Enforces the rule that **no product code is written until the Step 8 decision is GO**.
 4. Writes a quantitative GO / PIVOT / KILL verdict at the end.
@@ -75,6 +76,7 @@ The orchestrator:
 
 | Step | Skill | Exit criteria |
 |-----|-------|---------------|
+| 0 | `framework-selection` | Idea classified + validation framework chosen + per-step keep/skip/extend plan + kill-switch named |
 | 1 | `step-1-problem-and-audience` | Problem statement + 2–3 segments + watering holes with verbatim quotes |
 | 2 | `step-2-competitor-analysis` | Advantages/disadvantages per competitor + named gap + price band |
 | 3 | `step-3-value-proposition` | Headline + 3 bullets + 1 real proof element |

@@ -13,6 +13,12 @@ Cycle: 1 / N (this is the Nth attempt for this idea)
 Owner: [you]
 Started: [YYYY-MM-DD]
 
+## Step 0 — Framework
+- Idea classification (buyer / price / cycle / monetization / reachability / delivery / newness):
+- Chosen framework + why:
+- Per-step plan (keep / skip / extend / replace):
+- Kill-switch signal:
+
 ## Step 1 — Problem & Audience
 **Problem statement:**
 > [Specific person] struggles to [outcome] because [obstacle] which costs [time/money/status]. Today they cope by [workaround] which is bad because [gap].

@@ -26,6 +26,7 @@ Trigger on any of:
 
 | Step | Skill | Outcome |
 |-----|-------|---------|
+| 0 | [framework-selection](../framework-selection/SKILL.md) | Idea classified; validation framework chosen; which of Steps 1–8 to keep/skip/extend; kill-switch named |
 | 1 | [step-1-problem-and-audience](../step-1-problem-and-audience/SKILL.md) | Written problem statement, 2–3 target segments, list of watering holes |
 | 2 | [step-2-competitor-analysis](../step-2-competitor-analysis/SKILL.md) | Advantages/disadvantages table for each competitor & alternative; the gap to own |
 | 3 | [step-3-value-proposition](../step-3-value-proposition/SKILL.md) | One headline + 3 benefit bullets that pass the "so what?" test |
@@ -44,11 +45,12 @@ Cross-cutting:
 
 1. **Orient.** Ask the user where they are. Two questions only:
    - "One sentence: what's the idea and who is it for?"
-   - "Which of Step 1–7 are you on (or have you done none yet)?"
-2. **Create the validation log.** Write `validation-log.md` in the working directory with the template from [validation-metrics.md](../../references/validation-metrics.md#validation-log-template). Every step-skill updates it. The log is the single source of truth.
-3. **Route to the step-skill.** Invoke the matching `step-N-*` skill. Do not do that step's work yourself — defer to the skill.
-4. **Enforce the gate.** After each step, ask: "Did you complete the step's exit criteria? (y/n)" If no, do not advance. If the user wants to skip ahead to coding, refuse and quote the Step 8 decision rule from this file.
-5. **Close the loop.** After Step 8, the decision is GO, PIVOT, or KILL. Only on GO does the agent switch to a build skill (e.g. `spec-driven-development`).
+   - "Which of Step 1–8 are you on (or have you done none yet)?"
+2. **Pick the framework (Step 0).** If this is a fresh idea (no completed steps), invoke [framework-selection](../framework-selection/SKILL.md) first. It classifies the idea, chooses the validation framework (defaulting to this 8-step one), and tailors which steps to keep / skip / extend. Skip only if the user is resuming a cycle that already has a `Step 0 — Framework` log section.
+3. **Create the validation log.** Write `validation-log.md` in the working directory with the template from [validation-metrics.md](../../references/validation-metrics.md#validation-log-template). Every step-skill updates it. The log is the single source of truth.
+4. **Route to the step-skill.** Invoke the matching `step-N-*` skill, honoring the Step 0 keep/skip/extend plan. Do not do that step's work yourself — defer to the skill.
+5. **Enforce the gate.** After each step, ask: "Did you complete the step's exit criteria? (y/n)" If no, do not advance. If the user wants to skip ahead to coding, refuse and quote the Step 8 decision rule from this file.
+6. **Close the loop.** After Step 8, the decision is GO, PIVOT, or KILL. Only on GO does the agent switch to a build skill (e.g. `spec-driven-development`).
 
 ## The Gate (non-negotiable)
 
