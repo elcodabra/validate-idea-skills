@@ -1,6 +1,6 @@
 ---
 name: step-1-problem-and-audience
-description: Step 1 of the 7-step idea validation workflow — produces a written problem statement, 2–3 target user segments, and a list of where each segment actually hangs out online. Use when starting validation, when the user has an idea but no clearly named target user, or when later conversion is failing because messaging is generic. Use before drafting any landing page copy or value proposition.
+description: Step 1 of the 8-step idea validation workflow — produces a written problem statement, 2–3 target user segments, and a list of where each segment actually hangs out online. Use when starting validation, when the user has an idea but no clearly named target user, or when later conversion is failing because messaging is generic. Use before drafting any landing page copy or value proposition.
 ---
 
 # Step 1: Problem and Audience
@@ -16,7 +16,7 @@ Before you can validate demand, you need to name (a) the problem you think exist
 - Later traffic / conversion is poor and you suspect the audience is wrong
 - Customer interview responses are vague — usually a sign Step 1 was skipped
 
-**Do NOT use when:** the user already has a written problem statement, 2–3 named segments, and a list of channels for each. Skip to [step-2-value-proposition](../step-2-value-proposition/SKILL.md).
+**Do NOT use when:** the user already has a written problem statement, 2–3 named segments, and a list of channels for each. Skip to [step-2-competitor-analysis](../step-2-competitor-analysis/SKILL.md).
 
 ## Process
 
@@ -60,7 +60,7 @@ For each segment, produce a concrete list of 5–10 places (subreddit, Discord, 
 - Whether self-promotion is allowed (and the rules — most communities ban it; cold outreach beats spam)
 - One example post in that community where someone described the problem in their own words. Copy the exact quote into the validation log.
 
-The quote is the most important artifact of Step 1. It becomes the headline test on Step 2.
+The quote is the most important artifact of Step 1. It becomes the headline test on Step 3.
 
 ## Update the Validation Log
 
@@ -92,4 +92,4 @@ Add a `Step 1` section to `validation-log.md` containing:
 - [ ] Problem statement filled in using the template, with all weak-language rejections cleared
 - [ ] 2–3 segment tables completed, each with the 5 fields
 - [ ] At least 5 watering holes per segment, each with a verbatim user quote
-- [ ] Validation log `Step 1` section committed before invoking [step-2-value-proposition](../step-2-value-proposition/SKILL.md)
+- [ ] Validation log `Step 1` section committed before invoking [step-2-competitor-analysis](../step-2-competitor-analysis/SKILL.md)

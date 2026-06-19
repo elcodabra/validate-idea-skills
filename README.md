@@ -1,6 +1,6 @@
 # validate-idea-skills
 
-A pack of [Claude Code agent skills](https://github.com/addyosmani/agent-skills) that walks an indie hacker through validating a product idea in **7 steps, without writing any code** — smoke tests, landing pages, pre-sales, and a hard go/no-go gate at the end.
+A pack of [Claude Code agent skills](https://github.com/addyosmani/agent-skills) that walks an indie hacker through validating a product idea in **8 steps, without writing any code** — competitor analysis, smoke tests, landing pages, pre-sales, and a hard go/no-go gate at the end.
 
 Based on Larry Qu, [*Validate Your Indie Hacker Idea in 7 Days (Without Writing Code)*](https://calmops.com/indie-hackers/validate-idea-in-7-days-without-code/), CalmOps.
 
@@ -11,12 +11,13 @@ validate-idea-skills/
 ├── skills/
 │   ├── validate-idea-orchestrator/   # Routes to the right step-skill, enforces the gate
 │   ├── step-1-problem-and-audience/   # Problem statement, segments, watering holes
-│   ├── step-2-value-proposition/      # Headline + 3 bullets + proof
-│   ├── step-3-landing-page/           # No-code page, live on a custom domain
-│   ├── step-4-smoke-test/             # Analytics + conversion event + fake door
-│   ├── step-5-drive-traffic/          # Communities, outreach, Show HN
-│   ├── step-6-pre-sell/               # Stripe payment links, real intent signal
-│   ├── step-7-decide/                 # GO / PIVOT / KILL on quantitative thresholds
+│   ├── step-2-competitor-analysis/    # Advantages/disadvantages of competitors, the gap
+│   ├── step-3-value-proposition/      # Headline + 3 bullets + proof
+│   ├── step-4-landing-page/           # No-code page, live on a custom domain
+│   ├── step-5-smoke-test/             # Analytics + conversion event + fake door
+│   ├── step-6-drive-traffic/          # Communities, outreach, Show HN
+│   ├── step-7-pre-sell/               # Stripe payment links, real intent signal
+│   ├── step-8-decide/                 # GO / PIVOT / KILL on quantitative thresholds
 │   └── customer-interviews/          # 15-min Mom Test discovery script
 ├── references/
 │   ├── validation-metrics.md         # Thresholds + validation log template
@@ -66,25 +67,26 @@ Or just say "validate my idea: [one sentence]" — the `validate-idea-orchestrat
 The orchestrator:
 
 1. Creates a `validation-log.md` in the working directory.
-2. Routes you through Steps 1 → 7 using the matching skill at each step.
-3. Enforces the rule that **no product code is written until the Step 7 decision is GO**.
+2. Routes you through Steps 1 → 8 using the matching skill at each step.
+3. Enforces the rule that **no product code is written until the Step 8 decision is GO**.
 4. Writes a quantitative GO / PIVOT / KILL verdict at the end.
 
-## The 7-step map
+## The 8-step map
 
 | Step | Skill | Exit criteria |
 |-----|-------|---------------|
 | 1 | `step-1-problem-and-audience` | Problem statement + 2–3 segments + watering holes with verbatim quotes |
-| 2 | `step-2-value-proposition` | Headline + 3 bullets + 1 real proof element |
-| 3 | `step-3-landing-page` | Live page on a no-code builder + custom domain + stated price |
-| 4 | `step-4-smoke-test` | Analytics + conversion event + UTM scheme + fake-door post-click |
-| 5 | `step-5-drive-traffic` | ≥100 qualified visitors from ≥3 channels + 5 interview slots |
-| 6 | `step-6-pre-sell` | Stripe link live + personal outreach + ≥3 declines logged |
-| 7 | `step-7-decide` | Written GO / PIVOT / KILL backed by the validation log |
+| 2 | `step-2-competitor-analysis` | Advantages/disadvantages per competitor + named gap + price band |
+| 3 | `step-3-value-proposition` | Headline + 3 bullets + 1 real proof element |
+| 4 | `step-4-landing-page` | Live page on a no-code builder + custom domain + stated price |
+| 5 | `step-5-smoke-test` | Analytics + conversion event + UTM scheme + fake-door post-click |
+| 6 | `step-6-drive-traffic` | ≥100 qualified visitors from ≥3 channels + 5 interview slots |
+| 7 | `step-7-pre-sell` | Stripe link live + personal outreach + ≥3 declines logged |
+| 8 | `step-8-decide` | Written GO / PIVOT / KILL backed by the validation log |
 
 ## The gate
 
-> No production code, no backend, no schema, no MVP feature work until Step 7 says **GO**.
+> No production code, no backend, no schema, no MVP feature work until Step 8 says **GO**.
 
 `spec-driven-development` (or whatever build skill you prefer) takes over only after a GO — and even then, scope is constrained to fulfilling the people who paid.
 

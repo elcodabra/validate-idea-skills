@@ -1,17 +1,17 @@
 ---
-name: step-4-smoke-test
-description: Step 4 of the 7-step idea validation workflow — instruments the landing page with analytics, a conversion event on the primary CTA, and a fake-door experience that captures intent without delivering a product. Use after Step 3 is live. Use also when an existing page is getting traffic but no measurable signal — the smoke test gear is missing.
+name: step-5-smoke-test
+description: Step 5 of the 8-step idea validation workflow — instruments the landing page with analytics, a conversion event on the primary CTA, and a fake-door experience that captures intent without delivering a product. Use after Step 4 is live. Use also when an existing page is getting traffic but no measurable signal — the smoke test gear is missing.
 ---
 
-# Step 4: Smoke Test
+# Step 5: Smoke Test
 
 ## Overview
 
-A smoke test is a landing page that **acts like the product exists** so you can measure real intent, then handles the "click" honestly (no product yet, you tell them so). Step 4 wires up the instrumentation so Step 5's traffic produces evidence, not vibes.
+A smoke test is a landing page that **acts like the product exists** so you can measure real intent, then handles the "click" honestly (no product yet, you tell them so). Step 5 wires up the instrumentation so Step 6's traffic produces evidence, not vibes.
 
 ## When to Use
 
-- Step 4 of the validation cycle, after [step-3-landing-page](../step-3-landing-page/SKILL.md)
+- Step 5 of the validation cycle, after [step-4-landing-page](../step-4-landing-page/SKILL.md)
 - Existing landing page has traffic but you can't say what % click the CTA
 - "Our signups look fine" with no numerator/denominator — that's vanity. Run this skill.
 
@@ -23,9 +23,9 @@ A smoke test is a landing page that **acts like the product exists** so you can 
 |---------|--------------------|------------------|--------------------|
 | **Waitlist** | "We're not live yet — leave your email" | Email signups | Low |
 | **Fake door** | A "Get early access" / "Join the private beta" CTA opens a modal: "Thanks — we're shipping in N weeks. Tell us your use case and we'll prioritize early-access invites." | Click + qualified reply | Medium |
-| **Pre-order** | Real Stripe payment link (see [step-6-pre-sell](../step-6-pre-sell/SKILL.md)) | Charges | High |
+| **Pre-order** | Real Stripe payment link (see [step-7-pre-sell](../step-7-pre-sell/SKILL.md)) | Charges | High |
 
-Default to **fake door** on Step 4 — it's honest (you tell them after the click), gives a stronger signal than email-only, and feeds the Step 5 interviews.
+Default to **fake door** on Step 5 — it's honest (you tell them after the click), gives a stronger signal than email-only, and feeds the Step 6 interviews.
 
 > Ethics rule: the CTA copy itself must signal pre-launch ("Get early access", "Join the private beta", "Pre-order"). CTAs that read "Start now", "Sign up", or "Buy" imply a working product and become deceptive when there isn't one. Never charge cards or claim a feature exists if it doesn't. "Coming soon" + honest modal after the click is the line — but the line starts at the button copy.
 
@@ -51,11 +51,11 @@ Define ONE primary conversion event. Examples:
 - `signup_submit` — fired on form submission
 - `pre_order_intent` — fired on click of the "Pre-order" button (separate from the actual Stripe success — track both)
 
-Test it: open an incognito window, do the action, confirm the event lands in the analytics dashboard within 60 seconds. If it doesn't, fix it now — Step 5 traffic without this is wasted.
+Test it: open an incognito window, do the action, confirm the event lands in the analytics dashboard within 60 seconds. If it doesn't, fix it now — Step 6 traffic without this is wasted.
 
 ### 4. UTM scheme
 
-Set up your URL conventions before sharing any link on Step 5:
+Set up your URL conventions before sharing any link on Step 6:
 
 ```
 https://yoursite.com/?utm_source=<channel>&utm_medium=<post|comment|dm>&utm_campaign=launch-week
@@ -78,12 +78,12 @@ If the builder supports it cheaply, create 2 versions of the headline (the only 
 When a visitor converts, what do they get? Write this **today**, not after they sign up:
 
 - Auto-reply email (set up in the form tool or via a simple ESP — ConvertKit, Beehiiv, MailerLite, Buttondown)
-- The email asks 1–2 questions ("What pushed you to sign up today?") — these answers feed [customer-interviews](../customer-interviews/SKILL.md) on Step 5
+- The email asks 1–2 questions ("What pushed you to sign up today?") — these answers feed [customer-interviews](../customer-interviews/SKILL.md) on Step 6
 - A calendar link for a 15-min call (Cal.com, SavvyCal) — optional but high-signal for B2B
 
 ## Update the Validation Log
 
-Add a `Step 4` section to `validation-log.md`:
+Add a `Step 5` section to `validation-log.md`:
 
 - Smoke-test pattern chosen + why
 - Analytics tool + dashboard URL
@@ -96,9 +96,9 @@ Add a `Step 4` section to `validation-log.md`:
 | Rationalization | Reality |
 |---|---|
 | "I'll just count signups in the form tool" | Without page-view denominator you can't compute conversion. A 10% conversion on 50 visits is great; a 10% conversion on 5,000 is a disaster. |
-| "I'll add analytics after I see if there's traffic" | Then you'll lose the first cohort, who matter most. Wire it up before Step 5. |
+| "I'll add analytics after I see if there's traffic" | Then you'll lose the first cohort, who matter most. Wire it up before Step 6. |
 | "Fake door is dishonest — I should wait until I have a product" | Fake door with a clear post-click message is standard practice. Charging without a refund or hiding the "not built yet" message is what's wrong. |
-| "UTMs are overkill for indie hacker traffic" | At 100 visitors, UTMs are the only way to tell which channel converted. Without them, Step 7 becomes a guess. |
+| "UTMs are overkill for indie hacker traffic" | At 100 visitors, UTMs are the only way to tell which channel converted. Without them, Step 8 becomes a guess. |
 
 ## Red Flags
 
@@ -115,4 +115,4 @@ Add a `Step 4` section to `validation-log.md`:
 - [ ] UTM scheme documented and applied to at least one share link
 - [ ] Auto-reply email live and tested
 - [ ] Post-click experience is honest (no product where there is no product)
-- [ ] Validation log `Step 4` section committed before invoking [step-5-drive-traffic](../step-5-drive-traffic/SKILL.md)
+- [ ] Validation log `Step 5` section committed before invoking [step-6-drive-traffic](../step-6-drive-traffic/SKILL.md)

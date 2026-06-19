@@ -1,10 +1,10 @@
 # Validation Metrics & Log Template
 
-Reference loaded by the `validate-idea-orchestrator` and `step-7-decide` skills.
+Reference loaded by the `validate-idea-orchestrator` and `step-8-decide` skills.
 
 ## Validation Log Template
 
-Create as `validation-log.md` in the project working directory. Keep all steps in one file — the goal on Step 7 is to read the whole thing in one sitting.
+Create as `validation-log.md` in the project working directory. Keep all steps in one file — the goal on Step 8 is to read the whole thing in one sitting.
 
 ```markdown
 # Validation Log — [Idea name]
@@ -25,7 +25,14 @@ Started: [YYYY-MM-DD]
 | Segment | Channel | URL | Self-promo rules | Verbatim quote |
 |---------|---------|-----|------------------|----------------|
 
-## Step 2 — Value Proposition
+## Step 2 — Competitor Analysis
+| Competitor / Alternative | URL | Targets | Price | Advantages | Disadvantages | Verbatim complaint |
+|--------------------------|-----|---------|-------|------------|---------------|--------------------|
+- Head-to-head table (axes the segment cares about):
+- The gap you'll own + supporting quote:
+- Competitor price band:
+
+## Step 3 — Value Proposition
 - Chosen segment + why:
 - Headline:
 - Subhead:
@@ -33,28 +40,28 @@ Started: [YYYY-MM-DD]
 - Proof element:
 - Rejected drafts:
 
-## Step 3 — Landing Page
+## Step 4 — Landing Page
 - URL:
 - Builder + template:
 - Primary CTA + why:
 - Stated price + model:
 - Screenshot: ![](path or link)
 
-## Step 4 — Smoke Test
+## Step 5 — Smoke Test
 - Pattern: waitlist / fake door / pre-order
 - Analytics tool + URL:
 - Conversion event name + last verified at:
 - UTM scheme:
 - Auto-reply copy:
 
-## Step 5 — Drive Traffic
+## Step 6 — Drive Traffic
 - Channels:
 - Posts / messages (timestamped):
 - Visits by UTM source:
 - Conversion by UTM source:
 - Interview slots booked:
 
-## Step 6 — Pre-Sell
+## Step 7 — Pre-Sell
 - Model: deposit / lifetime / founding seat / LOI
 - Price + refund terms:
 - Stripe link:
@@ -62,7 +69,7 @@ Started: [YYYY-MM-DD]
 - Pre-orders: N totaling $M
 - Declines (quoted reasons):
 
-## Step 7 — Decision
+## Step 8 — Decision
 - Verdict: **GO | PIVOT | KILL**
 - Evidence: ...
 - Reasoning: ...
@@ -71,7 +78,7 @@ Started: [YYYY-MM-DD]
 
 ## Reference Thresholds
 
-Canonical for this pack. Step 7 reads these — do not duplicate them elsewhere.
+Canonical for this pack. Step 8 reads these — do not duplicate them elsewhere.
 
 | Signal | KILL | PIVOT | GO |
 |--------|------|-------|----|
@@ -82,7 +89,7 @@ Canonical for this pack. Step 7 reads these — do not duplicate them elsewhere.
 | **Pre-orders (paying)** | 0 | 1–4 | ≥5 OR ≥$500 collected |
 | Qualified interviews | <2 | 2–4 | ≥5 |
 
-**Decision rule** (applied at Step 7): a clean **GO** requires the pre-order row AND the qualified-interviews row to *both* be at GO level. Either alone is insufficient. A single $500 enterprise deposit clears the pre-order threshold but still needs ≥5 conversations.
+**Decision rule** (applied at Step 8): a clean **GO** requires the pre-order row AND the qualified-interviews row to *both* be at GO level. Either alone is insufficient. A single $500 enterprise deposit clears the pre-order threshold but still needs ≥5 conversations.
 
 Tighten thresholds for B2C (consumer scale, easier conversion), loosen for niche B2B / enterprise (smaller list, longer cycle, higher deal size).
 

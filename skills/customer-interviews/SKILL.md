@@ -1,19 +1,19 @@
 ---
 name: customer-interviews
-description: Runs a 15-minute discovery interview that surfaces real pain instead of leading the witness — uses past-behavior questions from "The Mom Test". Use during Step 1 (validate the problem), Step 5 (talk to early visitors), and Step 6 (understand declines). Use also any time the user wants to "talk to customers" but doesn't have a script.
+description: Runs a 15-minute discovery interview that surfaces real pain instead of leading the witness — uses past-behavior questions from "The Mom Test". Use during Step 1 (validate the problem), Step 6 (talk to early visitors), and Step 7 (understand declines). Use also any time the user wants to "talk to customers" but doesn't have a script.
 ---
 
 # Customer Interviews
 
 ## Overview
 
-A short discovery interview that proves whether a problem is real by asking about past behavior, not future intent. Used as a sub-skill from Steps 1, 5, and 6 of the 7-step validation. Heavily inspired by *The Mom Test* (Rob Fitzpatrick).
+A short discovery interview that proves whether a problem is real by asking about past behavior, not future intent. Used as a sub-skill from Steps 1, 6, and 7 of the 8-step validation. Heavily inspired by *The Mom Test* (Rob Fitzpatrick).
 
 ## When to Use
 
 - Step 1 — to validate the problem statement with people in the segment
-- Step 5 — every reply to outreach that says "interesting" → invite to a 15-min call
-- Step 6 — every decline of the pre-sell — ask why, in person
+- Step 6 — every reply to outreach that says "interesting" → invite to a 15-min call
+- Step 7 — every decline of the pre-sell — ask why, in person
 - Anytime someone wants to "do user research" but their script is full of "would you" questions
 
 ## Process
@@ -96,6 +96,6 @@ Capture **verbatim** quotes, not summaries. Verbatim user language goes into hea
 ## Verification
 
 - [ ] ≥5 interviews completed with people in the Step 1 segment (not friends, not investors)
-- [ ] Each scored on the 4 questions in section 4 (Score the conversation); ≥3 yeses across ≥5 interviews fed into the Step 7 verdict
+- [ ] Each scored on the 4 questions in section 4 (Score the conversation); ≥3 yeses across ≥5 interviews fed into the Step 8 verdict
 - [ ] Verbatim quotes captured in the validation log
 - [ ] At least one intro asked for per call

@@ -1,23 +1,23 @@
 ---
-name: step-7-decide
-description: Step 7 of the 7-step idea validation workflow — analyzes the validation log against quantitative thresholds and produces a written GO / PIVOT / KILL decision. This is the gate that controls whether any production code gets written. Use after Step 6 is complete. Use also when re-evaluating after a week-2 iteration cycle.
+name: step-8-decide
+description: Step 8 of the 8-step idea validation workflow — analyzes the validation log against quantitative thresholds and produces a written GO / PIVOT / KILL decision. This is the gate that controls whether any production code gets written. Use after Step 7 is complete. Use also when re-evaluating after a week-2 iteration cycle.
 ---
 
-# Step 7: Analyze and Decide
+# Step 8: Analyze and Decide
 
 ## Overview
 
-Step 7 is the decision gate. The validation log is now full of evidence; this skill turns it into one of three written verdicts:
+Step 8 is the decision gate. The validation log is now full of evidence; this skill turns it into one of three written verdicts:
 
 - **GO** — strong evidence of demand and willingness-to-pay. Proceed to build.
-- **PIVOT** — interesting signal but the segment, price, or shape is wrong. Re-run a focused 7-step cycle.
+- **PIVOT** — interesting signal but the segment, price, or shape is wrong. Re-run a focused 8-step cycle.
 - **KILL** — no meaningful signal. Free yourself for the next idea.
 
 No verdict, no code. Half-deciding ("I'll build a little and see") is how 6 months disappear.
 
 ## When to Use
 
-- Step 7 of the validation cycle, after [step-6-pre-sell](../step-6-pre-sell/SKILL.md)
+- Step 8 of the validation cycle, after [step-7-pre-sell](../step-7-pre-sell/SKILL.md)
 - Re-evaluating after a pivoted second cycle
 - A founder is "about to start building" and you suspect they haven't actually decided based on data
 
@@ -29,15 +29,15 @@ Pull from the validation log and compute, do not estimate:
 
 | Metric | How to compute | Source |
 |--------|----------------|--------|
-| Unique visitors | Analytics, unique by source | Step 4–5 |
-| Visitors per qualified channel | UTM split, segment-aligned channels only | Step 5 |
-| Landing page conversion to CTA | `cta_click` / `unique visitors` | Step 4 |
-| Conversion to email/waitlist | `signup_submit` / unique visitors | Step 4 |
-| Pre-order intent rate | `pre_order_intent` / unique visitors | Step 6 |
-| Pre-orders | Stripe success count | Step 6 |
-| Pre-order $ collected | Stripe revenue (gross) | Step 6 |
-| Qualified interviews | 15+ min conversations with Step 1 segment | Step 5–6 |
-| Decline reasons | Categorized (price / fit / time / scope) | Step 6 |
+| Unique visitors | Analytics, unique by source | Step 5–6 |
+| Visitors per qualified channel | UTM split, segment-aligned channels only | Step 6 |
+| Landing page conversion to CTA | `cta_click` / `unique visitors` | Step 5 |
+| Conversion to email/waitlist | `signup_submit` / unique visitors | Step 5 |
+| Pre-order intent rate | `pre_order_intent` / unique visitors | Step 7 |
+| Pre-orders | Stripe success count | Step 7 |
+| Pre-order $ collected | Stripe revenue (gross) | Step 7 |
+| Qualified interviews | 15+ min conversations with Step 1 segment | Step 6–7 |
+| Decline reasons | Categorized (price / fit / time / scope) | Step 7 |
 
 ### 2. Apply the decision framework
 
@@ -51,10 +51,10 @@ The decision rule on top of those thresholds:
 
 ### 3. Write the decision
 
-Add a `Step 7 — Decision` section to `validation-log.md`:
+Add a `Step 8 — Decision` section to `validation-log.md`:
 
 ```markdown
-## Step 7 — Decision
+## Step 8 — Decision
 
 Verdict: **GO | PIVOT | KILL**
 
@@ -76,11 +76,11 @@ Two paragraphs in plain English. The verdict must follow the evidence, not the o
 
 ### 4. On GO, scope the build narrowly
 
-The Step 7 GO does **not** unlock building the full product. It unlocks building the smallest thing that fulfills the pre-orders. Hand off to `spec-driven-development` / `planning-and-task-breakdown` (or whatever your stack uses) with a scope no larger than: deliver the promised pre-sell offer to the N customers who paid.
+The Step 8 GO does **not** unlock building the full product. It unlocks building the smallest thing that fulfills the pre-orders. Hand off to `spec-driven-development` / `planning-and-task-breakdown` (or whatever your stack uses) with a scope no larger than: deliver the promised pre-sell offer to the N customers who paid.
 
 ### 5. On PIVOT, run another cycle
 
-Restart from [step-1-problem-and-audience](../step-1-problem-and-audience/SKILL.md) with the changed variable made explicit: different segment, different price, different shape. Carry forward the Step 1–2 work that's still valid; redo what changes.
+Restart from [step-1-problem-and-audience](../step-1-problem-and-audience/SKILL.md) with the changed variable made explicit: different segment, different price, different shape. Carry forward the Step 1–3 work that's still valid; redo what changes.
 
 ### 6. On KILL, log the lessons and move on
 
@@ -91,7 +91,7 @@ Capture: what was the wrong assumption, what could you not change (market, chann
 | Rationalization | Reality |
 |---|---|
 | "The signals are mixed but I really believe in this — I'll build a little" | "A little" becomes 6 months. Either the data supports GO or it doesn't. PIVOT is also a valid answer; "build anyway" is not. |
-| "My category needs more time — 7 steps isn't enough" | True for some categories (enterprise sales cycles, regulated industries). Then extend Step 5–6 explicitly to 21 or 30 days — don't blur the gate. |
+| "My category needs more time — 8 steps isn't enough" | True for some categories (enterprise sales cycles, regulated industries). Then extend Step 6–7 explicitly to 21 or 30 days — don't blur the gate. |
 | "Pre-orders are unfair — my product isn't built yet" | The whole framework is built around this constraint. Refundable pre-orders are the standard. |
 | "I'll build the MVP because I want to use it myself" | That's a hobby project, not a validation outcome. Label it as such; the rest of the framework doesn't apply. |
 | "I'll combine multiple weak signals into a strong one" | Weak signals don't compound; they reveal what people will say without commitment. Don't average vanity metrics into a GO. |

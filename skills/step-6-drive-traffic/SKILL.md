@@ -1,17 +1,17 @@
 ---
-name: step-5-drive-traffic
-description: Step 5 of the 7-step idea validation workflow — drives 100–500 targeted visitors to the smoke-test page via communities, direct outreach, and one launch surface (Show HN, Product Hunt upcoming, niche newsletter). No ad budget required. Use after Step 4 is instrumented. Use also when an existing page has zero traffic and the user is unsure where to share it.
+name: step-6-drive-traffic
+description: Step 6 of the 8-step idea validation workflow — drives 100–500 targeted visitors to the smoke-test page via communities, direct outreach, and one launch surface (Show HN, Product Hunt upcoming, niche newsletter). No ad budget required. Use after Step 5 is instrumented. Use also when an existing page has zero traffic and the user is unsure where to share it.
 ---
 
-# Step 5: Drive Traffic
+# Step 6: Drive Traffic
 
 ## Overview
 
-The page is live and instrumented. Step 5 puts qualified eyeballs in front of it — not the most eyeballs, the most *qualified* eyeballs from the Step 1 watering holes. The target is 100–500 visitors from real segments, not 10,000 from generic Twitter.
+The page is live and instrumented. Step 6 puts qualified eyeballs in front of it — not the most eyeballs, the most *qualified* eyeballs from the Step 1 watering holes. The target is 100–500 visitors from real segments, not 10,000 from generic Twitter.
 
 ## When to Use
 
-- Step 5 of the validation cycle, after [step-4-smoke-test](../step-4-smoke-test/SKILL.md)
+- Step 6 of the validation cycle, after [step-5-smoke-test](../step-5-smoke-test/SKILL.md)
 - The page is live but has had no real visitors yet
 - Conversion data is missing because the traffic mix is wrong (e.g., friends-and-family only)
 
@@ -21,7 +21,7 @@ The page is live and instrumented. Step 5 puts qualified eyeballs in front of it
 
 - **Floor:** 100 unique visitors from the Step 1 segments — below this, conversion numbers are not statistically meaningful
 - **Goal:** 200–500 in 48 hours
-- **Channel diversity:** at least 3 sources so you can tell which segment / channel converts best (Step 7 input)
+- **Channel diversity:** at least 3 sources so you can tell which segment / channel converts best (Step 8 input)
 
 ### 2. Channel strategy (in priority order, no ads required)
 
@@ -67,7 +67,7 @@ If your segment reads a particular newsletter, the cheapest play is a sponsored 
 
 ### 3. Tag every share
 
-Every link you post or send today must use the [Step 4 UTM scheme](../step-4-smoke-test/SKILL.md). One untagged link in a high-traffic thread can wreck the Step 7 attribution.
+Every link you post or send today must use the [Step 5 UTM scheme](../step-5-smoke-test/SKILL.md). One untagged link in a high-traffic thread can wreck the Step 8 attribution.
 
 ### 4. Set traffic expectations
 
@@ -82,15 +82,15 @@ Realistic 48-hour outcomes by channel (indie hacker scale):
 | Twitter post from <1k account | 5–30 | <1% |
 | Twitter post from >10k account | 200–1,000 | 1–3% |
 
-If you're at 5 visitors after Step 5, the channels are wrong, not the page.
+If you're at 5 visitors after Step 6, the channels are wrong, not the page.
 
 ### 5. Capture interview slots
 
-The point of cold outreach is conversations, not signups. Every reply that says "interesting" → invite to a 15-min call. Step 6/7 logic depends on having had ~5 real conversations.
+The point of cold outreach is conversations, not signups. Every reply that says "interesting" → invite to a 15-min call. Step 7/8 logic depends on having had ~5 real conversations.
 
 ## Update the Validation Log
 
-Add a `Step 5` section to `validation-log.md`:
+Add a `Step 6` section to `validation-log.md`:
 
 - Channels actually used
 - Posts / messages sent (with timestamps and URLs)
@@ -105,7 +105,7 @@ Add a `Step 5` section to `validation-log.md`:
 | "I'll just tweet it and see what happens" | Untargeted tweets from small accounts get <30 visits. You'll learn nothing. |
 | "I'll spam every subreddit" | One ban kills a channel permanently. Read rules, contribute first, post once. |
 | "Cold outreach feels icky" | A 4-sentence personalized email asking for 15 minutes is not spam. A 12-paragraph pitch deck is. |
-| "I'll wait until I have more traffic before talking to people" | The 5 conversations you have on Step 5 are worth more than the next 500 visitors. |
+| "I'll wait until I have more traffic before talking to people" | The 5 conversations you have on Step 6 are worth more than the next 500 visitors. |
 | "Product Hunt now will be my launch" | PH should be saved for after validation — burning it now without product is a waste of your one shot. |
 
 ## Red Flags
@@ -122,4 +122,4 @@ Add a `Step 5` section to `validation-log.md`:
 - [ ] ≥3 distinct channels in the UTM split
 - [ ] ≥5 customer interview slots booked or completed (see [customer-interviews](../customer-interviews/SKILL.md))
 - [ ] No untagged share links
-- [ ] Validation log `Step 5` section committed before invoking [step-6-pre-sell](../step-6-pre-sell/SKILL.md)
+- [ ] Validation log `Step 6` section committed before invoking [step-7-pre-sell](../step-7-pre-sell/SKILL.md)
