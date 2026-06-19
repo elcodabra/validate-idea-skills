@@ -46,9 +46,12 @@ Match the profile to a primary framework. These are **adaptations of**, not repl
 | Free / ad-supported consumer, monetized by scale | **Engagement + retention test** | Pre-sell (Step 7) is N/A — substitute waitlist→activation and a retention/return-visit signal; raise the Step 6 traffic bar |
 | Fuzzy problem, hard-to-reach audience, no clear segment | **Interview-led (The Mom Test)** | Lead with [customer-interviews](../customer-interviews/SKILL.md) before building any page; treat Steps 4–5 as optional until the problem is confirmed |
 | Two-sided marketplace / network effect | **Single-side concierge + supply seeding** | Validate the harder side first by hand; a landing page alone can't test liquidity |
+| Hardware / physical product / high unit cost | **Crowdfunding pre-sell (Kickstarter / Indiegogo)** | Step 7 becomes a public campaign with a funding goal + tiered rewards; the Step 4 page drives to the campaign; GO = campaign funds (or hits a pre-set % of goal) |
+| Headline / price / offer genuinely uncertain, with traffic to spare | **Fake-door A/B test** | Ship 2 landing variants in Steps 4–5 (headline *or* price — one variable), split-route the Step 6 traffic by UTM, and let conversion pick the winner before Step 7 |
+| Many untested assumptions, unclear which is riskiest | **Lean Canvas + riskiest-assumption mapping** | Run *before* Step 1: fill a one-page Lean Canvas, rank assumptions by (impact × uncertainty), and design Steps 4–7 to test the single riskiest one first |
 | You already have some users | **Sean Ellis PMF survey** | Run the "how disappointed if this went away" survey alongside Step 8 instead of cold pre-sells |
 
-If two fit, pick the one that tests the **riskiest assumption** first (does anyone want it? can I reach them? will they pay? can I deliver it?).
+If two fit, pick the one that tests the **riskiest assumption** first (does anyone want it? can I reach them? will they pay? can I deliver it?). When the riskiest assumption itself is unclear, start with the Lean Canvas mapping row above, then route to the matching framework.
 
 ### 3. Tailor the 8 steps
 
