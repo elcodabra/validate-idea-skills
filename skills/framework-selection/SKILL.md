@@ -53,7 +53,29 @@ Match the profile to a primary framework. These are **adaptations of**, not repl
 
 If two fit, pick the one that tests the **riskiest assumption** first (does anyone want it? can I reach them? will they pay? can I deliver it?). When the riskiest assumption itself is unclear, start with the Lean Canvas mapping row above, then route to the matching framework.
 
-### 3. Tailor the 8 steps
+### 3. Recommend to the user (and confirm)
+
+Don't just present the table — **make one clear call.** State it in plain language and tie it to the classification, then let the user confirm or override. You own the reasoning; the user owns the final choice.
+
+```
+For "[idea]" ([buyer] · [price] · [cycle]), I recommend **[framework]**.
+Why: [1–2 sentences citing the specific axes — e.g. "$8k ACV + a 2-month
+     procurement cycle means a Stripe pre-order can't fire, but a signed
+     LOI can"].
+Runner-up: [framework] — switch to it if [condition].
+Confidence: [high / medium / low] — would change if [the one fact that flips it].
+```
+
+Rules for a good recommendation:
+
+- **One primary pick.** "It depends" is a non-answer; name the call and the condition that would change it.
+- **Cite the classification, not generic advice.** The reason must reference the axes you filled in, not "this is best practice."
+- **Default with a reason.** When the idea is an ordinary paid tool with a reachable audience, recommend the 8-step default *and say why nothing more exotic is needed* — don't reach for a fancier framework to look thorough.
+- **Flag low confidence.** If the classification is thin (e.g. price or audience still unknown), say so and name what to learn first.
+
+Wait for the user's confirm/override before tailoring the steps.
+
+### 4. Tailor the 8 steps
 
 Write the concrete plan: for each of Steps 1–8, mark **keep / skip / extend / replace**, with one line of why. Example for an enterprise idea:
 
@@ -64,7 +86,7 @@ Write the concrete plan: for each of Steps 1–8, mark **keep / skip / extend / 
 - Step 7 (pre-sell): **replace** Stripe link with signed LOI / paid pilot
 - Step 8 (decide): keep, but GO threshold = N signed LOIs, not pre-orders
 
-### 4. Name the kill-switch up front
+### 5. Name the kill-switch up front
 
 State the single signal that, if absent, means KILL regardless of enthusiasm (e.g. "no design partner will sign an LOI", "0% return visits in week 2"). Naming it now prevents goal-post-moving at Step 8.
 
@@ -73,7 +95,8 @@ State the single signal that, if absent, means KILL regardless of enthusiasm (e.
 Add a `Step 0 — Framework` section to `validation-log.md`:
 
 - Idea classification (the axes table, filled in)
-- Chosen framework + one-paragraph why
+- Recommended framework + runner-up + confidence + one-paragraph why
+- The user's confirm or override
 - Per-step keep / skip / extend / replace plan
 - The named kill-switch signal
 
@@ -97,7 +120,7 @@ Add a `Step 0 — Framework` section to `validation-log.md`:
 ## Verification
 
 - [ ] Idea classified across the axes in section 1
-- [ ] One primary framework chosen, with a written reason
+- [ ] One primary framework recommended to the user with reasoning, a runner-up, and a confidence level; user confirmed or overrode
 - [ ] Per-step keep / skip / extend / replace plan recorded
 - [ ] Kill-switch signal named before Step 1 begins
 - [ ] Validation log `Step 0 — Framework` section committed before invoking [step-1-problem-and-audience](../step-1-problem-and-audience/SKILL.md)

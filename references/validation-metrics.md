@@ -15,7 +15,8 @@ Started: [YYYY-MM-DD]
 
 ## Step 0 — Framework
 - Idea classification (buyer / price / cycle / monetization / reachability / delivery / newness):
-- Chosen framework + why:
+- Recommended framework + runner-up + confidence + why:
+- User confirm / override:
 - Per-step plan (keep / skip / extend / replace):
 - Kill-switch signal:
 
