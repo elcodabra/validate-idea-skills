@@ -60,7 +60,7 @@ Skills are plain Markdown — copy any `SKILL.md` into your agent's rules / skil
 ## Use it
 
 ```
-/validate
+/validate-idea-skills:validate
 ```
 
 Or just say "validate my idea: [one sentence]" — the `validate-idea-orchestrator` skill auto-triggers.
